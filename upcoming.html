@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming BL Dramas 2024-2025 | BL Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-heart"></i> BL Tracker</h1>
+                <p class="tagline">Your Ultimate Boy's Love Drama Guide</p>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="upcoming.html" class="nav-link active"><i class="fas fa-calendar-plus"></i> Upcoming</a>
+                <a href="airing.html" class="nav-link"><i class="fas fa-tv"></i> Currently Airing</a>
+                <a href="completed.html" class="nav-link"><i class="fas fa-check-circle"></i> Completed</a>
+                <div class="search-box">
+                    <input type="text" placeholder="Search upcoming BLs..." id="upcomingSearch">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="page-header">
+            <h1><i class="fas fa-calendar-plus"></i> Upcoming BL Dramas (2024-2025)</h1>
+            <p class="page-description">All announced and upcoming Boy's Love dramas scheduled for release. Updated regularly with new announcements.</p>
+            
+            <!-- Year Filter -->
+            <div class="year-filter">
+                <button class="year-btn active" data-year="all">All Years</button>
+                <button class="year-btn" data-year="2024">2024</button>
+                <button class="year-btn" data-year="2025">2025</button>
+                <button class="year-btn" data-year="2026">2026</button>
+            </div>
+        </div>
+
+        <!-- Country Filters -->
+        <div class="country-filter-page">
+            <h3>Filter by Country:</h3>
+            <div class="country-buttons">
+                <button class="country-btn active" data-country="all">All Countries</button>
+                <button class="country-btn" data-country="thailand">Thailand</button>
+                <button class="country-btn" data-country="japan">Japan</button>
+                <button class="country-btn" data-country="korea">South Korea</button>
+                <button class="country-btn" data-country="taiwan">Taiwan</button>
+                <button class="country-btn" data-country="philippines">Philippines</button>
+                <button class="country-btn" data-country="china">China</button>
+                <button class="country-btn" data-country="vietnam">Vietnam</button>
+            </div>
+        </div>
+
+        <!-- Month Filter -->
+        <div class="month-filter">
+            <h3>Filter by Release Month:</h3>
+            <div class="month-buttons">
+                <button class="month-btn active" data-month="all">All Months</button>
+                <button class="month-btn" data-month="q1">Q1 (Jan-Mar)</button>
+                <button class="month-btn" data-month="q2">Q2 (Apr-Jun)</button>
+                <button class="month-btn" data-month="q3">Q3 (Jul-Sep)</button>
+                <button class="month-btn" data-month="q4">Q4 (Oct-Dec)</button>
+            </div>
+        </div>
+
+        <!-- Status Summary -->
+        <div class="status-summary">
+            <div class="status-item">
+                <span class="status-dot announced"></span>
+                <span>Announced</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot filming"></span>
+                <span>Filming</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot post-production"></span>
+                <span>Post-Production</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot confirmed"></span>
+                <span>Confirmed Date</span>
+            </div>
+        </div>
+
+        <!-- Upcoming BL List -->
+        <div class="bl-list-container">
+            <div class="list-header">
+                <div class="total-count">
+                    Total Upcoming: <span id="total-upcoming">0</span> dramas
+                </div>
+                <div class="sort-options">
+                    <select id="sortSelect">
+                        <option value="date">Sort by Date</option>
+                        <option value="name">Sort by Name</option>
+                        <option value="country">Sort by Country</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="upcoming-bl-grid" id="upcoming-bl-list">
+                <!-- Upcoming BLs will be loaded here -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading upcoming BL dramas...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Release Calendar -->
+        <div class="release-calendar">
+            <h2><i class="fas fa-calendar-alt"></i> Release Calendar</h2>
+            <div class="calendar-navigation">
+                <button id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                <h3 id="currentMonth">January 2024</h3>
+                <button id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="calendar-grid" id="calendar">
+                <!-- Calendar will be generated here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heart"></i> BL Tracker</h3>
+                    <p>Comprehensive upcoming BL drama information.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Upcoming by Country</h4>
+                    <a href="#" data-country="thailand">Thailand (0)</a>
+                    <a href="#" data-country="japan">Japan (0)</a>
+                    <a href="#" data-country="korea">Korea (0)</a>
+                    <a href="#" data-country="taiwan">Taiwan (0)</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="airing.html">Currently Airing</a>
+                    <a href="completed.html">Completed BLs</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BL Tracker. Upcoming drama information is subject to change.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            loadUpcomingPage();
+        });
+    </script>
+</body>
+</html>
