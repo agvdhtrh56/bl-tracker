@@ -1,0 +1,30 @@
+{
+  "upcoming": [
+    {
+      "title": "BL Series 1",
+      "date": "2026-02-14",
+      "description": "A heartwarming new story about love and destiny.",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "title": "BL Movie: True Love",
+      "date": "2026-03-01",
+      "description": "A touching love story with riveting twists.",
+      "image": "https://via.placeholder.com/300x200"
+    }
+  ],
+  "current": [
+    {
+      "title": "Ongoing BL: Love Happens",
+      "date": "Every Friday",
+      "description": "Follow the journey of two strangers finding love.",
+      "image": "https://via.placeholder.com/300x200"
+    },
+    {
+      "title": "BL: The Series",
+      "date": "Every Sunday",
+      "description": "Watch as the story unfolds every week.",
+      "image": "https://via.placeholder.com/300x200"
+    }
+  ]
+}
