@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BL Tracker - Your Ultimate Boy's Love Drama Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-heart"></i> BL Tracker</h1>
+                <p class="tagline">Your Ultimate Boy's Love Drama Guide</p>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                <a href="upcoming.html" class="nav-link"><i class="fas fa-calendar-plus"></i> Upcoming</a>
+                <a href="airing.html" class="nav-link"><i class="fas fa-tv"></i> Currently Airing</a>
+                <a href="completed.html" class="nav-link"><i class="fas fa-check-circle"></i> Completed</a>
+                <div class="search-box">
+                    <input type="text" placeholder="Search BL dramas..." id="globalSearch">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Track Your Favorite BL Dramas</h2>
+                <p>Never miss an episode. Get updates on upcoming, ongoing, and completed Boy's Love series from Thailand, Japan, Korea, Taiwan, and more.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="upcoming-count">0</span>
+                        <span class="stat-label">Upcoming</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="airing-count">0</span>
+                        <span class="stat-label">Airing Now</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="completed-count">0</span>
+                        <span class="stat-label">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Country Filters -->
+    <section class="country-filter">
+        <div class="container">
+            <h3>Browse by Country</h3>
+            <div class="country-buttons">
+                <button class="country-btn active" data-country="all">
+                    <img src="https://flagcdn.com/w40/world.png" alt="All">
+                    All
+                </button>
+                <button class="country-btn" data-country="thailand">
+                    <img src="https://flagcdn.com/w40/th.png" alt="Thailand">
+                    Thailand
+                </button>
+                <button class="country-btn" data-country="japan">
+                    <img src="https://flagcdn.com/w40/jp.png" alt="Japan">
+                    Japan
+                </button>
+                <button class="country-btn" data-country="korea">
+                    <img src="https://flagcdn.com/w40/kr.png" alt="Korea">
+                    Korea
+                </button>
+                <button class="country-btn" data-country="taiwan">
+                    <img src="https://flagcdn.com/w40/tw.png" alt="Taiwan">
+                    Taiwan
+                </button>
+                <button class="country-btn" data-country="philippines">
+                    <img src="https://flagcdn.com/w40/ph.png" alt="Philippines">
+                    Philippines
+                </button>
+                <button class="country-btn" data-country="china">
+                    <img src="https://flagcdn.com/w40/cn.png" alt="China">
+                    China
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured BLs -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-fire"></i> Featured BL Dramas</h2>
+                <a href="upcoming.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="bl-grid" id="featured-grid">
+                <!-- Featured BLs will load here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Section -->
+    <section class="upcoming-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-calendar-star"></i> Recently Added Upcoming</h2>
+                <a href="upcoming.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="bl-grid" id="upcoming-grid">
+                <!-- Upcoming BLs will load here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Currently Airing Section -->
+    <section class="airing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-satellite-dish"></i> Currently Airing Now</h2>
+                <a href="airing.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="bl-grid" id="airing-grid">
+                <!-- Airing BLs will load here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heart"></i> BL Tracker</h3>
+                    <p>Your comprehensive guide to Boy's Love dramas from around the world.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="upcoming.html">Upcoming BLs</a>
+                    <a href="airing.html">Currently Airing</a>
+                    <a href="completed.html">Completed BLs</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Countries</h4>
+                    <a href="#" data-country="thailand">Thai BL</a>
+                    <a href="#" data-country="japan">Japanese BL</a>
+                    <a href="#" data-country="korea">Korean BL</a>
+                    <a href="#" data-country="taiwan">Taiwanese BL</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Updates</h4>
+                    <p>Updated daily with new BL drama information.</p>
+                    <p class="update-time">Last updated: <span id="last-updated">Today</span></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BL Tracker. All drama information is for reference only. Images belong to their respective owners.</p>
+                <p class="disclaimer">This site is not affiliated with any production company. All information is collected from public sources.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize homepage
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHomepageData();
+            setupEventListeners();
+        });
+    </script>
+</body>
+</html>
