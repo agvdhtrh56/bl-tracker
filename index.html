@@ -4,30 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Track Upcoming and Currently Airing BLs">
-  <title>BL Tracker</title>
+  <title>My BL Tracker</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- Header Section -->
   <header>
-    <h1>BL Tracker</h1>
-    <p>Your go-to site for upcoming and currently airing BLs!</p>
+    <div class="container">
+      <h1><i class="fas fa-heart"></i> My BL Tracker</h1>
+      <p class="tagline">Your personal guide to upcoming and currently airing Boys' Love series</p>
+    </div>
   </header>
-  
-  <main>
-    <section id="upcoming-bls">
-      <h2>Upcoming BLs</h2>
-      <div class="bl-list" id="upcoming-list"></div>
+
+  <!-- Navigation Tabs -->
+  <div class="tabs container">
+    <button class="tab-button active" data-tab="upcoming">Upcoming BLs</button>
+    <button class="tab-button" data-tab="current">Currently Airing</button>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="search-container container">
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Search BL series by title...">
+      <button id="clearSearch"><i class="fas fa-times"></i></button>
+    </div>
+    <p class="search-info">Search through upcoming and currently airing series</p>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Upcoming BLs Section -->
+    <section id="upcoming" class="tab-content active">
+      <h2><i class="fas fa-calendar-alt"></i> Upcoming BLs</h2>
+      <p class="section-description">BL series and movies that will be released soon</p>
+      <div class="bl-grid" id="upcoming-list">
+        <!-- Content loaded dynamically from data.json -->
+        <div class="loading">
+          <i class="fas fa-spinner fa-spin"></i>
+          <p>Loading upcoming BLs...</p>
+        </div>
+      </div>
     </section>
 
-    <section id="current-bls">
-      <h2>Currently Airing BLs</h2>
-      <div class="bl-list" id="current-list"></div>
+    <!-- Currently Airing BLs Section -->
+    <section id="current" class="tab-content">
+      <h2><i class="fas fa-tv"></i> Currently Airing BLs</h2>
+      <p class="section-description">BL series that are currently airing with episode schedules</p>
+      <div class="bl-grid" id="current-list">
+        <!-- Content loaded dynamically from data.json -->
+        <div class="loading">
+          <i class="fas fa-spinner fa-spin"></i>
+          <p>Loading currently airing BLs...</p>
+        </div>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 BL Tracker | All rights reserved.</p>
+    <div class="container">
+      <p>My BL Tracker &copy; 2024 | Updated regularly</p>
+      <p class="footer-note">All images are for reference purposes only. Credits to respective owners.</p>
+    </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
