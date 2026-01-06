@@ -1,82 +1,218 @@
 {
   "upcoming": [
     {
-      "title": "Love in the Moonlight",
-      "date": "March 15, 2024",
-      "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "A romantic story about two college students who discover love during their astronomy club activities.",
-      "genre": "Romance, College Life",
-      "country": "South Korea",
-      "episodes": "10 episodes"
-    },
-    {
-      "title": "Secret Admirer",
-      "date": "April 5, 2024",
-      "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "Anonymous love letters lead to an unexpected romance between two office workers.",
-      "genre": "Office Romance, Drama",
-      "country": "Japan",
-      "episodes": "8 episodes"
-    },
-    {
-      "title": "Summer Waves",
-      "date": "May 20, 2024",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "A beachside romance between a surfer and a local cafe owner.",
-      "genre": "Summer Romance, Slice of Life",
+      "title": "Love Upon a Time",
+      "date": "February 14, 2024",
+      "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A historical fantasy BL about a prince who falls in love with a mysterious time traveler from the future.",
+      "genre": "Historical, Fantasy, Romance",
       "country": "Thailand",
-      "episodes": "12 episodes"
+      "episodes": "12 episodes",
+      "rating": "Not yet rated"
     },
     {
-      "title": "Fated Hearts",
-      "date": "June 10, 2024",
+      "title": "The Eighth Sense",
+      "date": "March 1, 2024",
+      "image": "https://images.unsplash.com/photo-1512070679279-8988d32161be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A psychological BL about two college students exploring their sexuality and emotional connection.",
+      "genre": "Psychological, Romance, Drama",
+      "country": "South Korea",
+      "episodes": "10 episodes",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "My Stand-In",
+      "date": "March 15, 2024",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A stunt double falls for the actor he's standing in for, leading to a complicated on-and-off set romance.",
+      "genre": "Showbiz, Romance, Drama",
+      "country": "Thailand",
+      "episodes": "14 episodes",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "My Love Mix-Up! 2",
+      "date": "April 5, 2024",
       "image": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "Two childhood friends reunite after years apart, discovering feelings they never knew existed.",
-      "genre": "Friends to Lovers, Drama",
-      "country": "Taiwan",
-      "episodes": "Movie"
+      "description": "Sequel to the popular Japanese BL about high school students navigating love and misunderstandings.",
+      "genre": "School, Comedy, Romance",
+      "country": "Japan",
+      "episodes": "8 episodes",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "Moonlight Chicken",
+      "date": "April 20, 2024",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A late-night chicken rice shop owner finds unexpected love with a mysterious customer.",
+      "genre": "Slice of Life, Romance, Food",
+      "country": "Thailand",
+      "episodes": "Movie",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "Sing My Crush",
+      "date": "May 10, 2024",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A musical BL about two rival singers who discover love through their passion for music.",
+      "genre": "Musical, Romance, Drama",
+      "country": "South Korea",
+      "episodes": "12 episodes",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "Love Class 2",
+      "date": "June 1, 2024",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Continuation of the popular university romance with new couples and deeper relationships.",
+      "genre": "University, Romance, Drama",
+      "country": "South Korea",
+      "episodes": "10 episodes",
+      "rating": "Not yet rated"
+    },
+    {
+      "title": "The Whisperer",
+      "date": "June 15, 2024",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A supernatural BL about a man who can hear people's thoughts and falls for someone whose mind he can't read.",
+      "genre": "Supernatural, Romance, Mystery",
+      "country": "Philippines",
+      "episodes": "13 episodes",
+      "rating": "Not yet rated"
     }
   ],
   "current": [
     {
-      "title": "Office Romance Chronicles",
-      "date": "Airing Weekly",
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "The evolving relationship between a CEO and his personal assistant.",
-      "genre": "Office Romance, Comedy",
-      "country": "South Korea",
-      "episodes": "Episode 6/16",
-      "airingDay": "Wednesdays"
+      "title": "KinnPorsche: The Series",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A bodyguard falls for the mafia boss's son he's assigned to protect, leading to dangerous romance.",
+      "genre": "Mafia, Action, Romance",
+      "country": "Thailand",
+      "episodes": "Episode 8/14",
+      "airingDay": "Saturdays",
+      "rating": "8.5/10"
     },
     {
-      "title": "Campus Love Story",
+      "title": "Semantic Error",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A perfectionist computer science major clashes with a popular art student, sparking unexpected romance.",
+      "genre": "University, Enemies to Lovers",
+      "country": "South Korea",
+      "episodes": "Episode 6/10",
+      "airingDay": "Wednesdays",
+      "rating": "9.0/10"
+    },
+    {
+      "title": "Bad Buddy",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Two neighbors from rival families fall in love despite their families' long-standing feud.",
+      "genre": "Romance, Comedy, Drama",
+      "country": "Thailand",
+      "episodes": "Episode 10/12",
+      "airingDay": "Fridays",
+      "rating": "8.8/10"
+    },
+    {
+      "title": "Cherry Magic!",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A 30-year-old office worker gains the ability to read minds through touch and discovers his handsome coworker's feelings.",
+      "genre": "Office, Fantasy, Romance",
+      "country": "Japan",
+      "episodes": "Episode 7/12",
+      "airingDay": "Thursdays",
+      "rating": "8.7/10"
+    },
+    {
+      "title": "Not Me",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Twin brothers swap lives, leading one to uncover secrets and fall in love while impersonating his sibling.",
+      "genre": "Thriller, Mystery, Romance",
+      "country": "Thailand",
+      "episodes": "Episode 9/14",
+      "airingDay": "Sundays",
+      "rating": "8.9/10"
+    },
+    {
+      "title": "To My Star",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A top celebrity hides away with a grumpy chef, leading to an unexpected romantic connection.",
+      "genre": "Celebrity, Romance, Slice of Life",
+      "country": "South Korea",
+      "episodes": "Episode 5/8",
+      "airingDay": "Tuesdays",
+      "rating": "8.6/10"
+    },
+    {
+      "title": "I Told Sunset About You",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Two childhood friends turned rivals rediscover their feelings while preparing for university entrance exams.",
+      "genre": "Coming of Age, Romance, Drama",
+      "country": "Thailand",
+      "episodes": "Episode 4/5",
+      "airingDay": "Saturdays",
+      "rating": "9.2/10"
+    },
+    {
+      "title": "History 5: Love in the Future",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Latest installment in the popular HISTORY series, featuring time travel and futuristic romance.",
+      "genre": "Sci-Fi, Romance, Time Travel",
+      "country": "Taiwan",
+      "episodes": "Episode 6/10",
+      "airingDay": "Mondays",
+      "rating": "8.4/10"
+    },
+    {
+      "title": "Gameboys The Movie",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "The movie continuation of the popular online gamers romance that started during the pandemic.",
+      "genre": "Gaming, Romance, Drama",
+      "country": "Philippines",
+      "episodes": "Movie (Weekly screenings)",
+      "airingDay": "Various",
+      "rating": "8.7/10"
+    },
+    {
+      "title": "Love Mechanics",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A complicated love triangle develops between engineering students, exploring themes of love and friendship.",
+      "genre": "University, Love Triangle, Drama",
+      "country": "Thailand",
+      "episodes": "Episode 11/14",
+      "airingDay": "Wednesdays",
+      "rating": "8.5/10"
+    },
+    {
+      "title": "Blueming",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Two film students with contrasting personalities develop a deep connection while working on a project together.",
+      "genre": "Arts, Romance, Coming of Age",
+      "country": "South Korea",
+      "episodes": "Episode 7/11",
+      "airingDay": "Fridays",
+      "rating": "8.9/10"
+    },
+    {
+      "title": "My School President",
       "date": "Currently Airing",
       "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "University students navigate love, friendship, and self-discovery.",
-      "genre": "College Life, Drama",
+      "description": "The student council president and a music club leader clash at first but gradually develop feelings.",
+      "genre": "School, Music, Romance",
       "country": "Thailand",
       "episodes": "Episode 8/12",
-      "airingDay": "Fridays"
-    },
-    {
-      "title": "The Artist's Heart",
-      "date": "Weekly Release",
-      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "A painter finds inspiration in his new muse, leading to a passionate romance.",
-      "genre": "Art, Romance",
-      "country": "Japan",
-      "episodes": "Episode 5/10",
-      "airingDay": "Sundays"
-    },
-    {
-      "title": "Unexpected Encounters",
-      "date": "Ongoing",
-      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "description": "Two strangers meet by chance and develop an unexpected connection.",
-      "genre": "Romance, Slice of Life",
-      "country": "Philippines",
-      "episodes": "Episode 10/13",
-      "airingDay": "Tuesdays"
+      "airingDay": "Sundays",
+      "rating": "8.8/10"
     }
   ]
 }
