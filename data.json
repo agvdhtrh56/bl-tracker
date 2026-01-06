@@ -1,30 +1,82 @@
 {
   "upcoming": [
     {
-      "title": "BL Series 1",
-      "date": "2026-02-14",
-      "description": "A heartwarming new story about love and destiny.",
-      "image": "https://via.placeholder.com/300x200"
+      "title": "Love in the Moonlight",
+      "date": "March 15, 2024",
+      "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A romantic story about two college students who discover love during their astronomy club activities.",
+      "genre": "Romance, College Life",
+      "country": "South Korea",
+      "episodes": "10 episodes"
     },
     {
-      "title": "BL Movie: True Love",
-      "date": "2026-03-01",
-      "description": "A touching love story with riveting twists.",
-      "image": "https://via.placeholder.com/300x200"
+      "title": "Secret Admirer",
+      "date": "April 5, 2024",
+      "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Anonymous love letters lead to an unexpected romance between two office workers.",
+      "genre": "Office Romance, Drama",
+      "country": "Japan",
+      "episodes": "8 episodes"
+    },
+    {
+      "title": "Summer Waves",
+      "date": "May 20, 2024",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A beachside romance between a surfer and a local cafe owner.",
+      "genre": "Summer Romance, Slice of Life",
+      "country": "Thailand",
+      "episodes": "12 episodes"
+    },
+    {
+      "title": "Fated Hearts",
+      "date": "June 10, 2024",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Two childhood friends reunite after years apart, discovering feelings they never knew existed.",
+      "genre": "Friends to Lovers, Drama",
+      "country": "Taiwan",
+      "episodes": "Movie"
     }
   ],
   "current": [
     {
-      "title": "Ongoing BL: Love Happens",
-      "date": "Every Friday",
-      "description": "Follow the journey of two strangers finding love.",
-      "image": "https://via.placeholder.com/300x200"
+      "title": "Office Romance Chronicles",
+      "date": "Airing Weekly",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "The evolving relationship between a CEO and his personal assistant.",
+      "genre": "Office Romance, Comedy",
+      "country": "South Korea",
+      "episodes": "Episode 6/16",
+      "airingDay": "Wednesdays"
     },
     {
-      "title": "BL: The Series",
-      "date": "Every Sunday",
-      "description": "Watch as the story unfolds every week.",
-      "image": "https://via.placeholder.com/300x200"
+      "title": "Campus Love Story",
+      "date": "Currently Airing",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "University students navigate love, friendship, and self-discovery.",
+      "genre": "College Life, Drama",
+      "country": "Thailand",
+      "episodes": "Episode 8/12",
+      "airingDay": "Fridays"
+    },
+    {
+      "title": "The Artist's Heart",
+      "date": "Weekly Release",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "A painter finds inspiration in his new muse, leading to a passionate romance.",
+      "genre": "Art, Romance",
+      "country": "Japan",
+      "episodes": "Episode 5/10",
+      "airingDay": "Sundays"
+    },
+    {
+      "title": "Unexpected Encounters",
+      "date": "Ongoing",
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "description": "Two strangers meet by chance and develop an unexpected connection.",
+      "genre": "Romance, Slice of Life",
+      "country": "Philippines",
+      "episodes": "Episode 10/13",
+      "airingDay": "Tuesdays"
     }
   ]
 }
